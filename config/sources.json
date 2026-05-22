@@ -1,0 +1,49 @@
+{
+  "ads": [
+    {
+      "name": "adguard_dns_filter",
+      "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "format": "adblock"
+    }
+  ],
+  "trackers": [
+    {
+      "name": "hagezi_pro",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.txt",
+      "format": "domains"
+    }
+  ],
+  "malware": [
+    {
+      "name": "hagezi_tif",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.txt",
+      "format": "domains"
+    },
+    {
+      "name": "urlhaus_hostfile",
+      "url": "https://urlhaus.abuse.ch/downloads/hostfile/",
+      "format": "hosts"
+    }
+  ],
+  "adult": [
+    {
+      "name": "hagezi_nsfw",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/nsfw-onlydomains.txt",
+      "format": "domains"
+    }
+  ],
+  "gambling": [
+    {
+      "name": "hagezi_gambling",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt",
+      "format": "domains"
+    }
+  ],
+  "social": [
+    {
+      "name": "hagezi_social",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/social-onlydomains.txt",
+      "format": "domains"
+    }
+  ]
+}
