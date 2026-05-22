@@ -1,0 +1,1989 @@
+{
+  "profiles": [
+    {
+      "blocklists": [],
+      "categories": [],
+      "dns": "10.10.0.2",
+      "id": "default",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        }
+      ],
+      "categories": [
+        "ads"
+      ],
+      "dns": "10.10.0.3",
+      "id": "ads",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.4",
+      "id": "all",
+      "profile": "all-1_ads-1_trackers-1_malware-1_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "social"
+      ],
+      "dns": "10.10.0.5",
+      "id": "dns-000001",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "adult"
+      ],
+      "dns": "10.10.0.6",
+      "id": "dns-000010",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.7",
+      "id": "dns-000011",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "gambling"
+      ],
+      "dns": "10.10.0.8",
+      "id": "dns-000100",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.9",
+      "id": "dns-000101",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.10",
+      "id": "dns-000110",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.11",
+      "id": "dns-000111",
+      "profile": "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        }
+      ],
+      "categories": [
+        "malware"
+      ],
+      "dns": "10.10.0.12",
+      "id": "dns-001000",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "social"
+      ],
+      "dns": "10.10.0.13",
+      "id": "dns-001001",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "adult"
+      ],
+      "dns": "10.10.0.14",
+      "id": "dns-001010",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.15",
+      "id": "dns-001011",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "gambling"
+      ],
+      "dns": "10.10.0.16",
+      "id": "dns-001100",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.17",
+      "id": "dns-001101",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.18",
+      "id": "dns-001110",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "malware",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.19",
+      "id": "dns-001111",
+      "profile": "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        }
+      ],
+      "categories": [
+        "trackers"
+      ],
+      "dns": "10.10.0.20",
+      "id": "dns-010000",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "social"
+      ],
+      "dns": "10.10.0.21",
+      "id": "dns-010001",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "adult"
+      ],
+      "dns": "10.10.0.22",
+      "id": "dns-010010",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.23",
+      "id": "dns-010011",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "gambling"
+      ],
+      "dns": "10.10.0.24",
+      "id": "dns-010100",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.25",
+      "id": "dns-010101",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.26",
+      "id": "dns-010110",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.27",
+      "id": "dns-010111",
+      "profile": "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware"
+      ],
+      "dns": "10.10.0.28",
+      "id": "dns-011000",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "social"
+      ],
+      "dns": "10.10.0.29",
+      "id": "dns-011001",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "adult"
+      ],
+      "dns": "10.10.0.30",
+      "id": "dns-011010",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.31",
+      "id": "dns-011011",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "gambling"
+      ],
+      "dns": "10.10.0.32",
+      "id": "dns-011100",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.33",
+      "id": "dns-011101",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.34",
+      "id": "dns-011110",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "trackers",
+        "malware",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.35",
+      "id": "dns-011111",
+      "profile": "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "social"
+      ],
+      "dns": "10.10.0.36",
+      "id": "dns-100001",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "adult"
+      ],
+      "dns": "10.10.0.37",
+      "id": "dns-100010",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.38",
+      "id": "dns-100011",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "gambling"
+      ],
+      "dns": "10.10.0.39",
+      "id": "dns-100100",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.40",
+      "id": "dns-100101",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.41",
+      "id": "dns-100110",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.42",
+      "id": "dns-100111",
+      "profile": "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware"
+      ],
+      "dns": "10.10.0.43",
+      "id": "dns-101000",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "social"
+      ],
+      "dns": "10.10.0.44",
+      "id": "dns-101001",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "adult"
+      ],
+      "dns": "10.10.0.45",
+      "id": "dns-101010",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.46",
+      "id": "dns-101011",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "gambling"
+      ],
+      "dns": "10.10.0.47",
+      "id": "dns-101100",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.48",
+      "id": "dns-101101",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.49",
+      "id": "dns-101110",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "malware",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.50",
+      "id": "dns-101111",
+      "profile": "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers"
+      ],
+      "dns": "10.10.0.51",
+      "id": "dns-110000",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "social"
+      ],
+      "dns": "10.10.0.52",
+      "id": "dns-110001",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "adult"
+      ],
+      "dns": "10.10.0.53",
+      "id": "dns-110010",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.54",
+      "id": "dns-110011",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "gambling"
+      ],
+      "dns": "10.10.0.55",
+      "id": "dns-110100",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.56",
+      "id": "dns-110101",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.57",
+      "id": "dns-110110",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "gambling",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.58",
+      "id": "dns-110111",
+      "profile": "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware"
+      ],
+      "dns": "10.10.0.59",
+      "id": "dns-111000",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "social"
+      ],
+      "dns": "10.10.0.60",
+      "id": "dns-111001",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "adult"
+      ],
+      "dns": "10.10.0.61",
+      "id": "dns-111010",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "adult",
+        "social"
+      ],
+      "dns": "10.10.0.62",
+      "id": "dns-111011",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-1_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "gambling"
+      ],
+      "dns": "10.10.0.63",
+      "id": "dns-111100",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-0_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "social",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/social.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "gambling",
+        "social"
+      ],
+      "dns": "10.10.0.64",
+      "id": "dns-111101",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-0_social-1",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "blocklists": [
+        {
+          "category": "ads",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/ads.txt"
+        },
+        {
+          "category": "trackers",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/trackers.txt"
+        },
+        {
+          "category": "malware",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/malware.txt"
+        },
+        {
+          "category": "gambling",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/gambling.txt"
+        },
+        {
+          "category": "adult",
+          "format": "domains",
+          "url": "https://raw.githubusercontent.com/cryptsurf/cryptsurf-dns-blocklists/main/output/domains/adult.txt"
+        }
+      ],
+      "categories": [
+        "ads",
+        "trackers",
+        "malware",
+        "gambling",
+        "adult"
+      ],
+      "dns": "10.10.0.65",
+      "id": "dns-111110",
+      "profile": "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-1_social-0",
+      "upstream": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    }
+  ],
+  "source": "cryptsurf-dns-blocklists",
+  "updated_at": "2026-05-22T18:07:04Z",
+  "version": "2026-05-22T18:07:04Z"
+}

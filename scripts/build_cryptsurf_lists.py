@@ -2,6 +2,7 @@
 import hashlib
 import itertools
 import json
+import os
 import re
 import time
 import urllib.request
@@ -10,6 +11,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = ("ads", "trackers", "malware", "gambling", "adult", "social")
+DEFAULT_RAW_OUTPUT_BASE_URL = (
+    "https://raw.githubusercontent.com/cryptsurf/"
+    "cryptsurf-dns-blocklists/main/output/domains"
+)
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$")
 BAD_TOKENS = ("$", "/", "\\", "[", "]", "(", ")", "{", "}", ",", ";", ":", "!", "?")
 
@@ -151,6 +156,58 @@ def profile_name(flags):
     )
 
 
+def profile_bits(flags):
+    return "".join(str(int(flags[category])) for category in CATEGORIES)
+
+
+def profile_id(flags):
+    bits = profile_bits(flags)
+    if bits == "000000":
+        return "default"
+    if bits == "100000":
+        return "ads"
+    if bits == "111111":
+        return "all"
+    return f"dns-{bits}"
+
+
+def flags_from_bits(bits):
+    return {
+        category: bits[index] == "1"
+        for index, category in enumerate(CATEGORIES)
+    }
+
+
+def iter_profile_flags():
+    yielded = set()
+    for bits in ("000000", "100000", "111111"):
+        yielded.add(bits)
+        yield flags_from_bits(bits)
+
+    for values in itertools.product((False, True), repeat=len(CATEGORIES)):
+        flags = dict(zip(CATEGORIES, values))
+        bits = profile_bits(flags)
+        if bits in yielded:
+            continue
+        yielded.add(bits)
+        yield flags
+
+
+def profile_dns_ip(index):
+    return f"10.10.0.{index + 2}"
+
+
+def profile_blocklists(selected_categories, raw_output_base_url):
+    return [
+        {
+            "category": category,
+            "format": "domains",
+            "url": f"{raw_output_base_url}/{category}.txt",
+        }
+        for category in selected_categories
+    ]
+
+
 def sha256_domains(domains):
     digest = hashlib.sha256()
     for domain in sorted(domains):
@@ -163,6 +220,10 @@ def build():
     ensure_dirs()
 
     sources = read_json(ROOT / "config" / "sources.json")
+    raw_output_base_url = os.environ.get(
+        "RAW_OUTPUT_BASE_URL",
+        DEFAULT_RAW_OUTPUT_BASE_URL,
+    ).rstrip("/")
     allowlist = read_domain_file(ROOT / "cryptsurf" / "allowlist.txt")
     categories = {}
     metadata = {
@@ -170,6 +231,12 @@ def build():
         "categories": {},
         "profiles": {},
         "sources": sources,
+    }
+    manifest = {
+        "version": metadata["generated_at"],
+        "updated_at": metadata["generated_at"],
+        "source": "cryptsurf-dns-blocklists",
+        "profiles": [],
     }
 
     for category in CATEGORIES:
@@ -208,8 +275,7 @@ def build():
     write_unbound(ROOT / "output" / "unbound" / "all.conf", all_domains, "CryptSurf all Unbound rules")
     write_rpz(ROOT / "output" / "rpz" / "all.zone", all_domains, "cryptsurf-all")
 
-    for values in itertools.product((False, True), repeat=len(CATEGORIES)):
-        flags = dict(zip(CATEGORIES, values))
+    for index, flags in enumerate(iter_profile_flags()):
         name = profile_name(flags)
         selected_categories = [
             category for category, enabled in flags.items() if enabled
@@ -223,6 +289,19 @@ def build():
             "count": len(profile_domains),
             "sha256": sha256_domains(profile_domains),
         }
+        manifest["profiles"].append(
+            {
+                "id": profile_id(flags),
+                "profile": name,
+                "dns": profile_dns_ip(index),
+                "upstream": ["1.1.1.1", "8.8.8.8"],
+                "categories": selected_categories,
+                "blocklists": profile_blocklists(
+                    selected_categories,
+                    raw_output_base_url,
+                ),
+            }
+        )
 
     metadata["categories"]["all"] = {
         "count": len(all_domains),
@@ -234,6 +313,10 @@ def build():
     )
     (ROOT / "output" / "profiles.json").write_text(
         json.dumps(metadata["profiles"], indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    (ROOT / "output" / "manifest.json").write_text(
+        json.dumps(manifest, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
 

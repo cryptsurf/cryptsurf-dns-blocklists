@@ -1,6 +1,6 @@
 # CryptSurf DNS Blocklists
 
-CryptSurf-maintained DNS blocklist pipeline for VPN resolver profiles.
+CryptSurf-maintained DNS blocklist pipeline for DNS profile combinations.
 
 This repository does not mirror another provider's generated output. It fetches
 public upstream lists, normalizes them, applies CryptSurf allow/deny rules, and
@@ -12,6 +12,7 @@ generates resolver-ready files.
 - `output/unbound/<category>.conf`: Unbound `local-zone` rules
 - `output/rpz/<category>.zone`: RPZ zone files
 - `output/profiles.json`: 64 DNS profile combinations and selected categories
+- `output/manifest.json`: profile manifest
 - `output/metadata.json`: build metadata and counts
 
 Categories:
@@ -23,16 +24,14 @@ Categories:
 - `gambling`
 - `social`
 
-Profile names follow the VPN backend DNS profile key format:
+Profile names follow this key format:
 
 ```text
 all-0_ads-1_trackers-1_malware-0_gambling-0_adult-0_social-0
 ```
 
 The build creates a lightweight `profiles.json` with 64 category combinations.
-The `all` flag is set to `1` only when every category is enabled. Resolver
-servers should combine category files locally instead of downloading duplicate
-profile files.
+The `all` flag is set to `1` only when every category is enabled.
 
 ## Build
 
