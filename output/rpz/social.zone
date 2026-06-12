@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. admin.cryptsurf.net. (2026061212 300 300 300 300)
+@ SOA localhost. admin.cryptsurf.net. (2026061223 300 300 300 300)
 @ NS localhost.
 2ch.org CNAME .
 4cdn.org CNAME .
@@ -63,6 +63,9 @@ clubhouseapi.com CNAME .
 cms-twdigitalassets.com CNAME .
 como-hackearfacebook.com CNAME .
 componentkit.org CNAME .
+crowdtangle.com CNAME .
+cs1404.wpc.epsiloncdn.net CNAME .
+cs767.wpc.epsiloncdn.net CNAME .
 cupoftea.social CNAME .
 cyberplace.social CNAME .
 dacebook.com CNAME .
@@ -160,6 +163,7 @@ facebooik.com CNAME .
 facebooik.org CNAME .
 facebooj.com CNAME .
 facebook-corp.com CNAME .
+facebook-covid-19.com CNAME .
 facebook-ebook.com CNAME .
 facebook-forum.com CNAME .
 facebook-hardware.com CNAME .
@@ -213,6 +217,7 @@ facebookclub.com CNAME .
 facebookcom.com CNAME .
 facebookconnect.com CNAME .
 facebookconsultant.org CNAME .
+facebookcoronavirus.com CNAME .
 facebookcovers.org CNAME .
 facebookcredits.info CNAME .
 facebookdating.net CNAME .
@@ -366,6 +371,7 @@ fbbmarket.com CNAME .
 fbboostyourbusiness.com CNAME .
 fbcdn.com CNAME .
 fbcdn.net CNAME .
+fbf8.com CNAME .
 fbfeedback.com CNAME .
 fbhome.com CNAME .
 fbidb.io CNAME .
@@ -376,10 +382,14 @@ fblitho.com CNAME .
 fbmarketing.com CNAME .
 fbmessenger.com CNAME .
 fbredex.com CNAME .
+fbreg.com CNAME .
 fbrell.com CNAME .
+fbrpms.com CNAME .
 fbsbx.com CNAME .
 fbsbx.net CNAME .
+fbsupport-covid.net CNAME .
 fbthirdpartypixel.com CNAME .
+fbthirdpartypixel.net CNAME .
 fbthirdpartypixel.org CNAME .
 fburl.com CNAME .
 fbwat.ch CNAME .
@@ -460,6 +470,7 @@ hessen.social CNAME .
 hhvm.com CNAME .
 hifacebook.info CNAME .
 hostux.social CNAME .
+howtohackfacebook-account.com CNAME .
 hsfacebook.com CNAME .
 httpfacebook.com CNAME .
 httpsfacebook.com CNAME .
@@ -470,7 +481,9 @@ huoshanzhibo.com CNAME .
 i.org CNAME .
 ieji.de CNAME .
 ig.me CNAME .
+igcdn.com CNAME .
 igsonar.com CNAME .
+igtv.com CNAME .
 imgsmail.ru CNAME .
 impala-media-production.s3.amazonaws.com CNAME .
 imstagram.com CNAME .
@@ -669,14 +682,10 @@ p16-tiktok-dm-sticker-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-dm-sticker-sign-useast2a.ibyteimg.com CNAME .
 p16-tiktok-dm-sticker-sign-va.ibyteimg.com CNAME .
 p16-tiktok-group-icon-sign-sg.ibyteimg.com CNAME .
-p16-tiktok-group-icon-sign-va.ibyteimg.com CNAME .
 p16-tiktok-livestudio-asset-sg.ibyteimg.com CNAME .
 p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
-p16-tiktok-ls-product-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
-p16-tiktok-poi-picture-sign-useast2a.ibyteimg.com CNAME .
 p16-tiktok-va.ibyteimg.com CNAME .
-p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 p16-tiktokcdn-com.akamaized.net CNAME .
 parse.com CNAME .
 periscope.tv CNAME .
