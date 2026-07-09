@@ -4,7 +4,9 @@ import itertools
 import json
 import os
 import re
+import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -17,6 +19,9 @@ DEFAULT_RAW_OUTPUT_BASE_URL = (
 )
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$")
 BAD_TOKENS = ("$", "/", "\\", "[", "]", "(", ")", "{", "}", ",", ";", ":", "!", "?")
+FETCH_ATTEMPTS = max(1, int(os.environ.get("FETCH_ATTEMPTS", "4")))
+FETCH_TIMEOUT_SECONDS = max(1, int(os.environ.get("FETCH_TIMEOUT_SECONDS", "60")))
+FETCH_RETRY_DELAY_SECONDS = max(0, float(os.environ.get("FETCH_RETRY_DELAY_SECONDS", "5")))
 
 
 def read_json(path):
@@ -35,16 +40,82 @@ def read_domain_file(path):
     return domains
 
 
+def warn(message):
+    print(f"::warning::{message}", file=sys.stderr)
+
+
 def fetch_text(url):
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "CryptSurf-DNS-Blocklists/1.0",
-            "Accept": "text/plain,*/*",
-        },
+    last_error = None
+
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "CryptSurf-DNS-Blocklists/1.0",
+                "Accept": "text/plain,*/*",
+            },
+        )
+        try:
+            with urllib.request.urlopen(
+                request,
+                timeout=FETCH_TIMEOUT_SECONDS,
+            ) as response:
+                return response.read().decode("utf-8", errors="ignore")
+        except (TimeoutError, OSError, urllib.error.URLError) as error:
+            last_error = error
+            if attempt == FETCH_ATTEMPTS:
+                break
+
+            wait_seconds = FETCH_RETRY_DELAY_SECONDS * attempt
+            warn(
+                f"Fetch failed for {url} "
+                f"(attempt {attempt}/{FETCH_ATTEMPTS}): {error}; "
+                f"retrying in {wait_seconds:g}s"
+            )
+            time.sleep(wait_seconds)
+
+    raise RuntimeError(
+        f"failed to fetch {url} after {FETCH_ATTEMPTS} attempts: {last_error}"
+    ) from last_error
+
+
+def category_output_path(category):
+    return ROOT / "output" / "domains" / f"{category}.txt"
+
+
+def read_cached_category(category):
+    cached_domains = read_domain_file(category_output_path(category))
+    if not cached_domains:
+        path = category_output_path(category)
+        raise RuntimeError(
+            f"cannot fall back for {category}; {path} is empty or missing"
+        )
+    return cached_domains
+
+
+def fetch_category_domains(category, category_sources):
+    domains = set()
+    failures = []
+
+    for source in category_sources:
+        name = source.get("name", source["url"])
+        url = source["url"]
+        print(f"Fetching {category}/{name}: {url}", file=sys.stderr)
+        try:
+            domains.update(parse_source(fetch_text(url)))
+        except RuntimeError as error:
+            failures.append(f"{name} ({url}): {error}")
+
+    if not failures:
+        return domains
+
+    for failure in failures:
+        warn(failure)
+    warn(
+        f"Using cached {category_output_path(category)} because "
+        f"{len(failures)} upstream source(s) failed"
     )
-    with urllib.request.urlopen(request, timeout=60) as response:
-        return response.read().decode("utf-8", errors="ignore")
+    return read_cached_category(category)
 
 
 def normalize_domain(raw):
@@ -240,11 +311,7 @@ def build():
     }
 
     for category in CATEGORIES:
-        domains = set()
-        for source in sources.get(category, []):
-            text = fetch_text(source["url"])
-            domains.update(parse_source(text))
-
+        domains = fetch_category_domains(category, sources.get(category, []))
         denylist = read_domain_file(ROOT / "cryptsurf" / f"denylist_{category}.txt")
         domains.update(denylist)
         domains.difference_update(allowlist)
