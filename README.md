@@ -15,6 +15,10 @@ generates resolver-ready files.
 - `output/manifest.json`: profile manifest
 - `output/metadata.json`: build metadata and counts
 
+Large Unbound outputs may be split into chunk files. In that case,
+`output/unbound/<category>.conf` contains `include` directives for
+`output/unbound/<category>-001.conf`, `<category>-002.conf`, and so on.
+
 Categories:
 
 - `ads`
