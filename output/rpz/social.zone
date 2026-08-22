@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. admin.cryptsurf.net. (2026082118 300 300 300 300)
+@ SOA localhost. admin.cryptsurf.net. (2026082200 300 300 300 300)
 @ NS localhost.
 2ch.org CNAME .
 4cdn.org CNAME .
@@ -685,6 +685,7 @@ p16-tiktok-livestudio-asset-sg.ibyteimg.com CNAME .
 p16-tiktok-ls-merchant-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-poi-picture-sign-sg.ibyteimg.com CNAME .
 p16-tiktok-va.ibyteimg.com CNAME .
+p16-tiktok-web-ads-sg.ibyteimg.com CNAME .
 p16-tiktokcdn-com.akamaized.net CNAME .
 parse.com CNAME .
 periscope.tv CNAME .
@@ -757,6 +758,7 @@ redd.it CNAME .
 reddit.com CNAME .
 redditmail.com CNAME .
 redditmedia.com CNAME .
+redditstatic.com CNAME .
 redkix.com CNAME .
 rocksdb.com CNAME .
 rocksdb.net CNAME .
