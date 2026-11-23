@@ -1,20 +1,20 @@
 {
   "categories": {
     "ads": {
-      "count": 190008,
-      "sha256": "7021ea0c9ee976498990ae49d11bdaf4ae174958ad12ea829a6ce35cd3408e6f"
+      "count": 193279,
+      "sha256": "dbddf9a3c85c8dc41baa3725339df8ac9cadfb1fdcae247c955ad32c0a186bfa"
     },
     "adult": {
-      "count": 81703,
-      "sha256": "39bb2d4503538d5cc48249d2ab809d7646a6b010ab2bdeb07df7dbc61bc5276c"
+      "count": 81545,
+      "sha256": "19237dc60b66a812281c0eb1c505c2e1ef543558cd87e6463f10be412b291b2a"
     },
     "all": {
-      "count": 2892512,
-      "sha256": "b25328f8d0ad10ab3d5a081b0884d3caf5e4f5712cd57da669d747f743ab897c"
+      "count": 2899354,
+      "sha256": "555f2bd8ce7746a2d4e69ce662b57455adb6bc46776929d8a53877912ea633c6"
     },
     "gambling": {
-      "count": 692608,
-      "sha256": "6eb92c431e1d7cc7d6f5eb33c7e9bc1f5fd33a0e88435ac750f31b66f6da72c2"
+      "count": 691771,
+      "sha256": "2309119318cc4796adcced3aeadfb2c753ee8cbccfa7f8d589911d722d849cc6"
     },
     "malware": {
       "count": 1916977,
@@ -25,11 +25,11 @@
       "sha256": "9a7b4e9a9fa0fc9fb671cceb2cb4a186ea4b2e088a88b65d2104ff910753b06f"
     },
     "trackers": {
-      "count": 234089,
-      "sha256": "97b923c7616f17a74eb7fa3993860b054b5d6453efee178c5c852033ece582ba"
+      "count": 236176,
+      "sha256": "78d8502455b49f6eb49cd8de54f4b8c0080b2ddbfbea7a731829522808001648"
     }
   },
-  "generated_at": "2026-11-23T05:01:45Z",
+  "generated_at": "2026-11-23T16:59:42Z",
   "profiles": {
     "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-0_social-0": {
       "categories": [],
@@ -47,39 +47,39 @@
       "categories": [
         "adult"
       ],
-      "count": 81703,
-      "sha256": "39bb2d4503538d5cc48249d2ab809d7646a6b010ab2bdeb07df7dbc61bc5276c"
+      "count": 81545,
+      "sha256": "19237dc60b66a812281c0eb1c505c2e1ef543558cd87e6463f10be412b291b2a"
     },
     "all-0_ads-0_trackers-0_malware-0_gambling-0_adult-1_social-1": {
       "categories": [
         "adult",
         "social"
       ],
-      "count": 90017,
-      "sha256": "a0e2295c6d67b8d1ddf3ba24a5178a4f7ddb0f6b0d458decb384fe39e767124f"
+      "count": 89859,
+      "sha256": "5cb6c8c29fa56c54c58cfcc0a1c99422e21aaca8e57c61c2ed6fbad919bea455"
     },
     "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-0_social-0": {
       "categories": [
         "gambling"
       ],
-      "count": 692608,
-      "sha256": "6eb92c431e1d7cc7d6f5eb33c7e9bc1f5fd33a0e88435ac750f31b66f6da72c2"
+      "count": 691771,
+      "sha256": "2309119318cc4796adcced3aeadfb2c753ee8cbccfa7f8d589911d722d849cc6"
     },
     "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-0_social-1": {
       "categories": [
         "gambling",
         "social"
       ],
-      "count": 700940,
-      "sha256": "c107d2283f04943e4bdc8e7f083acc95cf0f83cabd4922f25839bcfc7f7ff2af"
+      "count": 700103,
+      "sha256": "ebba1d8e4d59ed980391cd1ac014f22b7afab1b38128b02114d6866891e375cf"
     },
     "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-1_social-0": {
       "categories": [
         "gambling",
         "adult"
       ],
-      "count": 774295,
-      "sha256": "504635ea90caba888cdde15ce4d8a9a454830623439449eb019d7aaa835c3f55"
+      "count": 773300,
+      "sha256": "be2ffb347213c10a2082553866fbf3c478b8e57b46644e82648dfe19dcc9c72c"
     },
     "all-0_ads-0_trackers-0_malware-0_gambling-1_adult-1_social-1": {
       "categories": [
@@ -87,8 +87,8 @@
         "adult",
         "social"
       ],
-      "count": 782609,
-      "sha256": "de8acb10da71a47683a1b85e53032dacb1cec549286712966860567758365731"
+      "count": 781614,
+      "sha256": "32d746be83bcb67e39bea9439575b7e851f5d8acde8d6b7c521f702a933c0b97"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-0_social-0": {
       "categories": [
@@ -110,8 +110,8 @@
         "malware",
         "adult"
       ],
-      "count": 1997933,
-      "sha256": "8a785c20e5989d1652262aea7bfd80de90d3896c6af745d18e19f5212c28468e"
+      "count": 1997775,
+      "sha256": "25b8aa40afdf05f8990145a17cde8ff069cd75d495ad3b1af911323eaedc0d48"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-0_adult-1_social-1": {
       "categories": [
@@ -119,16 +119,16 @@
         "adult",
         "social"
       ],
-      "count": 2006243,
-      "sha256": "7ffb41765a5d824735166a3cff6a25e851ac22b922795a63ce227b56e237515c"
+      "count": 2006085,
+      "sha256": "24ec41c4ca485482b854b5f0ed91f8d00fb8cd56e68191e0f57521e2ae937269"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-0_social-0": {
       "categories": [
         "malware",
         "gambling"
       ],
-      "count": 2523266,
-      "sha256": "af382d0377a516f5ab9e5b57556dd54911c54994be887366820fdfacee9f19cf"
+      "count": 2523807,
+      "sha256": "b3693a38746d07b54fdcb66a8b2287dec2d8316e3264232bda82645768072e23"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-0_social-1": {
       "categories": [
@@ -136,8 +136,8 @@
         "gambling",
         "social"
       ],
-      "count": 2531594,
-      "sha256": "bee175429649e7e52695f338a5c467cfda50abfad8bf3b052f03799e256637d9"
+      "count": 2532135,
+      "sha256": "858ceec0a35a881f458f6073f3c1f83e0b32914c049dde9b1a35c85c7a8e3f03"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-1_social-0": {
       "categories": [
@@ -145,8 +145,8 @@
         "gambling",
         "adult"
       ],
-      "count": 2604207,
-      "sha256": "d7caf4b0209b1d0979be4ac4accac22f5f59ffe7469190a85402505223296079"
+      "count": 2604590,
+      "sha256": "31bf738eeb3aef51159da89db612b19d90b0d7e85e7da794a001b3d2a466044b"
     },
     "all-0_ads-0_trackers-0_malware-1_gambling-1_adult-1_social-1": {
       "categories": [
@@ -155,31 +155,31 @@
         "adult",
         "social"
       ],
-      "count": 2612517,
-      "sha256": "6ee1ad27f36058df4737dd426e746b359a272050dbef2c3b19054d4b1662115c"
+      "count": 2612900,
+      "sha256": "ae252ff9fd385e5a8786fe4dceab39572c03c3e7aa8978b62965d3d368983c9b"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-0_social-0": {
       "categories": [
         "trackers"
       ],
-      "count": 234089,
-      "sha256": "97b923c7616f17a74eb7fa3993860b054b5d6453efee178c5c852033ece582ba"
+      "count": 236176,
+      "sha256": "78d8502455b49f6eb49cd8de54f4b8c0080b2ddbfbea7a731829522808001648"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-0_social-1": {
       "categories": [
         "trackers",
         "social"
       ],
-      "count": 242410,
-      "sha256": "a4549c9122cd02998e18947cc2a8e97af7ea71a30d600634f0a62eb27f483588"
+      "count": 244497,
+      "sha256": "192c98eaea829f5f2575a271e91cdefdc4b7560884cf7791062296953f2b801a"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-1_social-0": {
       "categories": [
         "trackers",
         "adult"
       ],
-      "count": 315497,
-      "sha256": "5e4463529f5155047f6d7220896c7dffc4073515bf4b016485775769a7cb75f8"
+      "count": 317413,
+      "sha256": "874f052c48f90095c0bcccdcc0b658143ebefa7e4c485bbe74d3fc81f6086196"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-0_adult-1_social-1": {
       "categories": [
@@ -187,16 +187,16 @@
         "adult",
         "social"
       ],
-      "count": 323800,
-      "sha256": "1a3bd9ad62dc06fafc542a1bdff5cd095c0fbded5efe225d944e5aa08585a83e"
+      "count": 325716,
+      "sha256": "c49697bb2c09fc13d4c3a34f990ab319953a26a46431abbf84ed2f9195faf198"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-0_social-0": {
       "categories": [
         "trackers",
         "gambling"
       ],
-      "count": 925025,
-      "sha256": "b036b20578f2f13fe09025cd4ec6062231357bfa22494dec100e213d10898372"
+      "count": 926235,
+      "sha256": "2a1a09ddc20f6a376aa833e4890db4955884a6d8bcd550d6aae3015fb7197695"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-0_social-1": {
       "categories": [
@@ -204,8 +204,8 @@
         "gambling",
         "social"
       ],
-      "count": 933346,
-      "sha256": "6a0ee637b707dcc92b823ec5fb87956e7497c10d6c2cf14ff872ac114464d83c"
+      "count": 934556,
+      "sha256": "2bd4d81ca24625c7837d5351ebcdc8edb9d1401bd7a9b4ba587c3d30f098deed"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-1_social-0": {
       "categories": [
@@ -213,8 +213,8 @@
         "gambling",
         "adult"
       ],
-      "count": 1006418,
-      "sha256": "a43446ddd059436e841556c14753bd48a94938c88818047fe582824b866867d9"
+      "count": 1007457,
+      "sha256": "7943bc39dac0e741136b7bc84d8ad1f00fa750c4dff014dea67e2cbb4b5a029b"
     },
     "all-0_ads-0_trackers-1_malware-0_gambling-1_adult-1_social-1": {
       "categories": [
@@ -223,16 +223,16 @@
         "adult",
         "social"
       ],
-      "count": 1014721,
-      "sha256": "963d890a389140cc96ac7491fd362e19a79af965ccdce4cdcfede8204611930d"
+      "count": 1015760,
+      "sha256": "64bfae381180ffb09394b694c5b04ec1ec50c486b362565c23e6f83b1c7c81af"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-0_social-0": {
       "categories": [
         "trackers",
         "malware"
       ],
-      "count": 2088592,
-      "sha256": "2fd226b8d53a872521c73293bcd807445b70057d46a24ff4f7764add86ac89ba"
+      "count": 2091405,
+      "sha256": "20510b636afff144c061b82a90e650e74681f81ff37aaf48933261ab19151f29"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-0_social-1": {
       "categories": [
@@ -240,8 +240,8 @@
         "malware",
         "social"
       ],
-      "count": 2096910,
-      "sha256": "ff0b19eb6bad04c2d59fbdb6dcbc3442e492d60bf322f1762e85d597ab0ebe0f"
+      "count": 2099723,
+      "sha256": "e7bf2b060db8c6d13d6126760422e7f80c70c59539bc378f3373a3002867d82b"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-1_social-0": {
       "categories": [
@@ -249,8 +249,8 @@
         "malware",
         "adult"
       ],
-      "count": 2169306,
-      "sha256": "4bd2105801c3a6febb803b2ed1ffee54b9819cd68518f34edbe99313fbca1f57"
+      "count": 2171957,
+      "sha256": "b5db94e7691c9108ea76c26d8dec8f23e86027b0ddec4be294fbff29e362e298"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-0_adult-1_social-1": {
       "categories": [
@@ -259,8 +259,8 @@
         "adult",
         "social"
       ],
-      "count": 2177606,
-      "sha256": "9cee57a5d5150bf70b258be90a720c173afcd5b78d7d1f561f47afa95df91565"
+      "count": 2180257,
+      "sha256": "6fe06a4d66bd6cdfb248d500d225ea641668c67d98b8a068fceda693b56d965a"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-0_social-0": {
       "categories": [
@@ -268,8 +268,8 @@
         "malware",
         "gambling"
       ],
-      "count": 2694164,
-      "sha256": "b76a938b2452457aa835533d84c487ebf88d164899aaf40eef09e6fbfdefb743"
+      "count": 2697498,
+      "sha256": "9dba13a62420be2acff7cca4c7f9bf64a684980d2dc8cc9388966f1e13704571"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-0_social-1": {
       "categories": [
@@ -278,8 +278,8 @@
         "gambling",
         "social"
       ],
-      "count": 2702482,
-      "sha256": "0a9f3619514c7c11ddb92f7fa433d12a630082cf4828e3ce303e89d091e31ea7"
+      "count": 2705816,
+      "sha256": "cc010bb1edfa2437f90717c45bb73f85fe140b13df48a4ef644cd917da246c15"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-1_social-0": {
       "categories": [
@@ -288,8 +288,8 @@
         "gambling",
         "adult"
       ],
-      "count": 2774863,
-      "sha256": "00a3851c6a5c8934387e01dac78ae36c132316a186cfb3de9dd81fd5f8c2c27c"
+      "count": 2778035,
+      "sha256": "f89f61955b664c989b4a8d774c6b530a8dfc910fb42a086ac7b6c377464ee332"
     },
     "all-0_ads-0_trackers-1_malware-1_gambling-1_adult-1_social-1": {
       "categories": [
@@ -299,31 +299,31 @@
         "adult",
         "social"
       ],
-      "count": 2783163,
-      "sha256": "128aeb40ff0534045ff65c0b040e945f336e7beaa0ee6c9d538a76d3119f97bb"
+      "count": 2786335,
+      "sha256": "98e8c4021da03006a21c9f45473828f0a2aea86f2f2755307f8ef6bdf6c994bc"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-0_social-0": {
       "categories": [
         "ads"
       ],
-      "count": 190008,
-      "sha256": "7021ea0c9ee976498990ae49d11bdaf4ae174958ad12ea829a6ce35cd3408e6f"
+      "count": 193279,
+      "sha256": "dbddf9a3c85c8dc41baa3725339df8ac9cadfb1fdcae247c955ad32c0a186bfa"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-0_social-1": {
       "categories": [
         "ads",
         "social"
       ],
-      "count": 198333,
-      "sha256": "78f29d277955891860d61f97876b749ba9dd348204a38164852997e7c15dcb2d"
+      "count": 201604,
+      "sha256": "00987efd21a488af4d490c75e460899b774ebef07f3b376c512c09af8447b993"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-1_social-0": {
       "categories": [
         "ads",
         "adult"
       ],
-      "count": 271628,
-      "sha256": "d5a866f18617170b14936f18448ea98576b9c31e41410f90e431d452632a90cd"
+      "count": 274741,
+      "sha256": "6ca1e81dd9447adaa218c446a5eabad2a83e6d1140e718c4bd0d94c95c4907f4"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-0_adult-1_social-1": {
       "categories": [
@@ -331,16 +331,16 @@
         "adult",
         "social"
       ],
-      "count": 279935,
-      "sha256": "96be4be742f5bbd3b444ba245307411b8590d0cbd8c5d7517e2337a52cffdfa0"
+      "count": 283048,
+      "sha256": "b06eac3a35d049b81bddddf2033999dad2c40bdb7f00c4b66c03b98a9820d2bb"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-0_social-0": {
       "categories": [
         "ads",
         "gambling"
       ],
-      "count": 882455,
-      "sha256": "dc9c2d3bcde60b03c0ba63cb92621e2e688b1c1a296cea98715cea5d1ecc179e"
+      "count": 884889,
+      "sha256": "f7d2e9e193428c9644f72694ab397622c7428546bf2e62405d3bcf3e40c68488"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-0_social-1": {
       "categories": [
@@ -348,8 +348,8 @@
         "gambling",
         "social"
       ],
-      "count": 890780,
-      "sha256": "aacb64245410709018e93b12a1336312f2e1b37e361e5ba456ea4ebf1489b381"
+      "count": 893214,
+      "sha256": "00f254d8f6cb58218b8ce9f35d945aa46d9a2558952063d55290878ae96712c2"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-1_social-0": {
       "categories": [
@@ -357,8 +357,8 @@
         "gambling",
         "adult"
       ],
-      "count": 964059,
-      "sha256": "c438911aa5793b088a56be0ac1c002f4f50e5e464e989cd2fd969831744c8572"
+      "count": 966335,
+      "sha256": "fcc7111bf747e0807cc6d35e29e5b6a7093cddf95a968a9126a9475688613adf"
     },
     "all-0_ads-1_trackers-0_malware-0_gambling-1_adult-1_social-1": {
       "categories": [
@@ -367,16 +367,16 @@
         "adult",
         "social"
       ],
-      "count": 972366,
-      "sha256": "7ac11ac937746dbb0925bfbd4db365381653fd239a8bc8d68f21a5499393cc3c"
+      "count": 974642,
+      "sha256": "8d6612e329ee81dae370301bfdd87ae9436ee670dbe2ed893b10e0a906be0d4d"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-0_social-0": {
       "categories": [
         "ads",
         "malware"
       ],
-      "count": 2084692,
-      "sha256": "236ea9c29de83e5a2c6f896cde62035c2da813041f326878bc7a8be84f743672"
+      "count": 2088012,
+      "sha256": "1d77d54d4c1255c004a260716010efaa162a741d4d4d51b0eab0cfc339c18868"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-0_social-1": {
       "categories": [
@@ -384,8 +384,8 @@
         "malware",
         "social"
       ],
-      "count": 2093013,
-      "sha256": "cc2cf1ad95504ef61d4dde1a689962e71a66eeb2a5d69d777b25e53620a93432"
+      "count": 2096333,
+      "sha256": "c10a9e582667e5e3c5460bb29cff01bf42ba35644f77d886ca02bb39a220396c"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-1_social-0": {
       "categories": [
@@ -393,8 +393,8 @@
         "malware",
         "adult"
       ],
-      "count": 2165568,
-      "sha256": "673e5a99433d64d86fb986066f946d4ce63fde16a75d4b8b1ba4ccdc7e41bd0b"
+      "count": 2168730,
+      "sha256": "c8eeb92091dbbe72b93a4c3f8001054e9e9a4f87c7d95b3a8bae51f45ef1c58c"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-0_adult-1_social-1": {
       "categories": [
@@ -403,8 +403,8 @@
         "adult",
         "social"
       ],
-      "count": 2173871,
-      "sha256": "a9bcca407809617d385c94cd53a3847ce802f9258605fe74f7dfb7688921df3b"
+      "count": 2177033,
+      "sha256": "7764d497581715221fdc97fc228e640c43f0f794b2a97397fdd347ef62f9d3ec"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-0_social-0": {
       "categories": [
@@ -412,8 +412,8 @@
         "malware",
         "gambling"
       ],
-      "count": 2690865,
-      "sha256": "b500c9fda8ba85137471ee211e3848aa4f10008a599f8fe996f32837403602ae"
+      "count": 2694726,
+      "sha256": "7536d48d3bbfc0dc0551351af69d94a11adadbab0902257bb5542ef766567b8d"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-0_social-1": {
       "categories": [
@@ -422,8 +422,8 @@
         "gambling",
         "social"
       ],
-      "count": 2699186,
-      "sha256": "e2492b10fc1978399064cf775b63c74cca4dc13ae29e0cfe735d80b46167806e"
+      "count": 2703047,
+      "sha256": "fc638a6d37ec8c94b443bbe8d24b30ab5a55db9271cdfd87d4455a74ab224a38"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-1_social-0": {
       "categories": [
@@ -432,8 +432,8 @@
         "gambling",
         "adult"
       ],
-      "count": 2771726,
-      "sha256": "3d4fbd15c76bc06486edd75dea288fe306deae6db0ff20c1ac1260d742bde8ed"
+      "count": 2775429,
+      "sha256": "aa24924f02cd389e168acbe9417d8d59f380203911deeb66cf72965696aa8af5"
     },
     "all-0_ads-1_trackers-0_malware-1_gambling-1_adult-1_social-1": {
       "categories": [
@@ -443,16 +443,16 @@
         "adult",
         "social"
       ],
-      "count": 2780029,
-      "sha256": "4df3e97b2a3a47ee7403e4c9a10d3e0b667cb7c420177dbab5bf19641842491a"
+      "count": 2783732,
+      "sha256": "82f88cda514b6369552104cb14a8f31aa85dfe95697429d6276453aa9649310f"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-0_social-0": {
       "categories": [
         "ads",
         "trackers"
       ],
-      "count": 347105,
-      "sha256": "badd3a751888215de18948a31f1d229e34aab57175240ef986953e64217c8cfa"
+      "count": 352875,
+      "sha256": "062d8cf6b9451d68602f01d4ec4b4d23deff3b50db3e7cbe038d81f6ff31f9fb"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-0_social-1": {
       "categories": [
@@ -460,8 +460,8 @@
         "trackers",
         "social"
       ],
-      "count": 355426,
-      "sha256": "a7f80f6a216de01cb6d3f338173665c03e5e141fb382e28b759eecd1a73d3205"
+      "count": 361196,
+      "sha256": "7d7d3583243a3e1c71004c495de4656220ea041c8e2de94f5383f7b713e8cb6a"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-1_social-0": {
       "categories": [
@@ -469,8 +469,8 @@
         "trackers",
         "adult"
       ],
-      "count": 428497,
-      "sha256": "9a0ceb94bd27d457f3468b62d5c651314b8cf17a8f4eca7e2d04aaa26610f0dc"
+      "count": 434097,
+      "sha256": "4a12a3ab4b51f28df972b9488d8a0010ec2877212eb2816e89b00c190e6dc134"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-0_adult-1_social-1": {
       "categories": [
@@ -479,8 +479,8 @@
         "adult",
         "social"
       ],
-      "count": 436800,
-      "sha256": "89af00fde256f2d43e36e84d8a2934f43e5fe1233580777e00c20f9ace879780"
+      "count": 442400,
+      "sha256": "25ce61f329bd4b42d89b9422b7542176e71ce51a2d573037320ea30f3a45e0e0"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-0_social-0": {
       "categories": [
@@ -488,8 +488,8 @@
         "trackers",
         "gambling"
       ],
-      "count": 1038035,
-      "sha256": "8ef1d32978c58b675d3f507eddd4925ab606523dd6e23d57fb6d5a44d4b9af09"
+      "count": 1042928,
+      "sha256": "9df3bda9eb11e9697d9b52781fb3ed03c5f428323f087e1da0fa53a1c7ff4658"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-0_social-1": {
       "categories": [
@@ -498,8 +498,8 @@
         "gambling",
         "social"
       ],
-      "count": 1046356,
-      "sha256": "6179c28eb5a1046ba6b901821a416cc6a64f8470fb9eee2108bf6ef84e991e70"
+      "count": 1051249,
+      "sha256": "10699ed589ddd1b6c6e7eb63842b84d4401863155616bfc459f73bc86b8213be"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-1_social-0": {
       "categories": [
@@ -508,8 +508,8 @@
         "gambling",
         "adult"
       ],
-      "count": 1119412,
-      "sha256": "fae668a667a0458b8d29911730b25fdbedaf2324d4a5338e45a366b1b34f0caf"
+      "count": 1124135,
+      "sha256": "99bd0fce11f478356fea3d02855d8d8eaa13a0f73946dfa1fcbd10e6532b0f3a"
     },
     "all-0_ads-1_trackers-1_malware-0_gambling-1_adult-1_social-1": {
       "categories": [
@@ -519,8 +519,8 @@
         "adult",
         "social"
       ],
-      "count": 1127715,
-      "sha256": "35ccfd4e8991d01f6556966e99c7a5c7f51765962dab2bd5c9a1e96b792dbbe9"
+      "count": 1132438,
+      "sha256": "08455fb772dc70c41609af9cd70bc5bb81bea699e51223e482ba56c5de632431"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-0_social-0": {
       "categories": [
@@ -528,8 +528,8 @@
         "trackers",
         "malware"
       ],
-      "count": 2197962,
-      "sha256": "c9fe6367a103ed93480c797996a5753fe533da979115c45c64b21450d173112b"
+      "count": 2204444,
+      "sha256": "adb68fa4eb53d3d5dacee46d5830ddabab3e829e6de939cacc0e5613c9bdbd66"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-0_social-1": {
       "categories": [
@@ -538,8 +538,8 @@
         "malware",
         "social"
       ],
-      "count": 2206280,
-      "sha256": "8c87ec93625f87b3084a9bd1292c42384a4724634c118fd08dc5a3a549afe284"
+      "count": 2212762,
+      "sha256": "9143f81ff0ba366cd5f85f78c79e1f6d954c0c30c8496afef9572f856e0ab672"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-1_social-0": {
       "categories": [
@@ -548,8 +548,8 @@
         "malware",
         "adult"
       ],
-      "count": 2278660,
-      "sha256": "614a68ee3db2d97e18fce622aa75547917162a5c7a6633f12f2e4af2b0d1a509"
+      "count": 2284981,
+      "sha256": "8ea47590ad90e13f4e1131df3f2f55b568bfa179eccf84ae7b7546a31c1e438b"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-0_adult-1_social-1": {
       "categories": [
@@ -559,8 +559,8 @@
         "adult",
         "social"
       ],
-      "count": 2286960,
-      "sha256": "aa5436cbbe2e1592580c91f81a659ce9a9f16c27e79e09beeb21aeb31081f9e4"
+      "count": 2293281,
+      "sha256": "05670dd845e05e682423aff0262f5050ab1b89a101444af940286653b66caa82"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-0_social-0": {
       "categories": [
@@ -569,8 +569,8 @@
         "malware",
         "gambling"
       ],
-      "count": 2803529,
-      "sha256": "85340ce1e901f2ec274dc0620ab341bf508fa1d3fecb6bd9731d3c1bd87480e2"
+      "count": 2810532,
+      "sha256": "81bff3b5145d4d4dd3c3224abb2fc5dbd71107749230e414a91e0cdda6a77432"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-0_social-1": {
       "categories": [
@@ -580,8 +580,8 @@
         "gambling",
         "social"
       ],
-      "count": 2811847,
-      "sha256": "496e98091f326920ad4ae8886a698b5f1b6a48b43a9d89db3baba88f01613639"
+      "count": 2818850,
+      "sha256": "39138b4e568526edccaf81f163d9b92c9b014f41d2ab47a048b7cb9dbf2d7802"
     },
     "all-0_ads-1_trackers-1_malware-1_gambling-1_adult-1_social-0": {
       "categories": [
@@ -591,8 +591,8 @@
         "gambling",
         "adult"
       ],
-      "count": 2884212,
-      "sha256": "13e1de1196752d406af6888a8493c81c3ae02e8e07a6fcfde67a1f3478842cdb"
+      "count": 2891054,
+      "sha256": "5aded98f218dff4800fd5d64ceae4d01e9130328afdc4aa447df372434ed20e3"
     },
     "all-1_ads-1_trackers-1_malware-1_gambling-1_adult-1_social-1": {
       "categories": [
@@ -603,8 +603,8 @@
         "adult",
         "social"
       ],
-      "count": 2892512,
-      "sha256": "b25328f8d0ad10ab3d5a081b0884d3caf5e4f5712cd57da669d747f743ab897c"
+      "count": 2899354,
+      "sha256": "555f2bd8ce7746a2d4e69ce662b57455adb6bc46776929d8a53877912ea633c6"
     }
   },
   "sources": {
